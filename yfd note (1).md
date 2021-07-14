@@ -9,7 +9,7 @@
  'rank IC大于0的比率': 0.3984161660294921
 }
 ```
-![](https://i.imgur.com/4ov1UAi.png)
+![](https://i.imgur.com/4ov1UAi.png =400x)
  
 2. 用 sw 一級行業分類，使用產品 (1000) 作為分類標的，對於單一公司的產業分類用原本的該公司的行業分類 使用 25 個交易日的 return 市值加權作為行業打分   
 ```{python}
@@ -22,8 +22,8 @@ ic_report
  'rank IC大于0的比率': 0.3653741125068269
 }
 ```
-   ![](https://i.imgur.com/LT75H7I.png)
-   ![](https://i.imgur.com/1HLhjlB.png)
+   ![](https://i.imgur.com/1HLhjlB.png =400x)![](https://i.imgur.com/LT75H7I.png =250x)
+   
 
 > 主要問題可能是因為產品分類分得太垃圾了
 > 解決方案: 
@@ -43,10 +43,8 @@ ic_report
      }
      
     ```   
-    ![](https://i.imgur.com/IUgRO8B.png)
-    ![](https://i.imgur.com/NocUHHg.png)
-    ![](https://i.imgur.com/XKRLE5S.png)
-    ![](https://i.imgur.com/wO0iC5g.png)
+    ![](https://i.imgur.com/IUgRO8B.png =350x)![](https://i.imgur.com/NocUHHg.png =300x)
+    ![](https://i.imgur.com/XKRLE5S.png =340x)![](https://i.imgur.com/wO0iC5g.png =340x)
     
     2. in hs300 (因為股票數目較少->分成五組)
     ```{python}
@@ -55,9 +53,8 @@ ic_report
      'rank ic均值': -0.007684928587401563,
      'rank ic标准差': 0.19594074106702722}
     ```
-    ![](https://i.imgur.com/Ol8g9yL.png)
-    ![](https://i.imgur.com/CXaYqFK.png)
-    ![](https://i.imgur.com/PrFpzav.png)
+    ![](https://i.imgur.com/Ol8g9yL.png =340x)![](https://i.imgur.com/CXaYqFK.png =340x)
+    ![](https://i.imgur.com/PrFpzav.png =350x)
 
     3. in zz500 
     ```{python}
@@ -66,9 +63,8 @@ ic_report
      'rank ic均值': -0.02645075280586383,
      'rank ic标准差': 0.1509149411407062}
     ```
-    ![](https://i.imgur.com/VYyaAiq.png)
-    ![](https://i.imgur.com/RUgPUrO.png)
-    ![](https://i.imgur.com/0TwVEXD.png)
+    ![](https://i.imgur.com/VYyaAiq.png =340x)![](https://i.imgur.com/RUgPUrO.png =340x)
+    ![](https://i.imgur.com/0TwVEXD.png =340x)
 
 
 > 上面的因子結果顯示 除了多頭一端明顯有上升趨勢，其餘組別呈現一個負向的關係
@@ -88,10 +84,8 @@ ic_report
      'rank ic均值': -0.020545555323223563,
      'rank ic标准差': 0.0842868064454191}
     ```
-    ![](https://i.imgur.com/kXqXXaY.png)
-    ![](https://i.imgur.com/YL8RNiN.png)
-    ![](https://i.imgur.com/VdEYsf8.png)
-    ![](https://i.imgur.com/OVaFVqT.png)
+    ![](https://i.imgur.com/kXqXXaY.png =340x)![](https://i.imgur.com/YL8RNiN.png =340x)
+    ![](https://i.imgur.com/VdEYsf8.png =340x)![](https://i.imgur.com/OVaFVqT.png =340x)
     2. zz800
     ```
     {'rank IC_IR': -0.244172746767251,
@@ -99,9 +93,8 @@ ic_report
      'rank ic均值': -0.031201495973258723,
      'rank ic标准差': 0.12778451480091035}`
     ```
-    ![](https://i.imgur.com/sxWLdcI.png)
-    ![](https://i.imgur.com/e3T9P3X.png)
-    ![](https://i.imgur.com/I6E5kY2.png)
+    ![](https://i.imgur.com/sxWLdcI.png =340x)![](https://i.imgur.com/e3T9P3X.png =340x)
+    ![](https://i.imgur.com/I6E5kY2.png =340x)
 5. 用 sw 一級行業分類，使用產業 (4000) 作為分類標的，對於單一公司的產業分類用原本的該公司的行業分類 使用 5 個交易日的 return 市值加權作為行業打分 
 
     1. 全A
@@ -111,9 +104,8 @@ ic_report
      'rank ic均值': -0.022954535506159376,
      'rank ic标准差': 0.08135587612453901}
     ```
-    ![](https://i.imgur.com/F9aeTOU.png)
-    ![](https://i.imgur.com/hdSx6Ea.png)
-    ![](https://i.imgur.com/OXtR47r.png)
+    ![](https://i.imgur.com/F9aeTOU.png =340x)![](https://i.imgur.com/hdSx6Ea.png =340x)
+    ![](https://i.imgur.com/OXtR47r.png =340x)
 
     2. zz800
     ```
@@ -122,9 +114,8 @@ ic_report
      'rank ic均值': -0.031201495973258723,
      'rank ic标准差': 0.12778451480091035}`
     ```
-    ![](https://i.imgur.com/sxWLdcI.png)
-    ![](https://i.imgur.com/e3T9P3X.png)
-    ![](https://i.imgur.com/I6E5kY2.png)
+    ![](https://i.imgur.com/sxWLdcI.png =340x)![](https://i.imgur.com/e3T9P3X.png =340x)
+    ![](https://i.imgur.com/I6E5kY2.png =340x)
 
     
 
